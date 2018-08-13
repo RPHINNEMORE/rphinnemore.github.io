@@ -1,0 +1,16 @@
+.bg-primary {
+  background-color: #4FC3F7 !important;
+}
+
+.text-primary {
+  color: #4FC3F7 !important;
+}
+
+a {
+  color: #4FC3F7;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken(#4FC3F7, 15%);
+  }
+}
